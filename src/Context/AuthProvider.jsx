@@ -8,7 +8,7 @@ const AuthProvider = ({children}) => {
         return createUserWithEmailAndPassword(auth, email, passowrd);
     }
     const userInfo = {
-        email: 'pot@alu.com'
+        createUser 
     }
     return (
        <AuthContext value={userInfo}>
